@@ -3,3 +3,9 @@
         max-width: 768px;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 576px;
+    }
+}
