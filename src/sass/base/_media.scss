@@ -1,11 +1,111 @@
-@media (max-width: 991px) {
-    .container {
-        max-width: 768px;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        max-width: 576px;
-    }
-}
+        @media (max-width: 991px) {
+            .container {
+                max-width: 768px;
+            }
+            .header {
+                padding: 0 40px 0 40px;
+                &__logo {
+                    img {
+                        width: 70%;
+                    }
+                }
+                &__official {
+                    font-size: 10px;
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .promo__wrapper {
+                padding-right: 50px;
+            }
+            .promo__header {
+                font-size: 30px;
+            }
+            .advantages__wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+            .advantages__main {
+                margin-bottom: 40px;
+            }
+            .consultations {
+                padding: 100px 40px 92px 40px;
+            }
+            .carousel {
+                &__inner {
+                    img {
+                        width: 50%;
+                        height: 50%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .catalog__content {
+                justify-content: center;
+                margin-right: 20px;
+            }
+            .catalog-item:nth-child(3n+3) {
+                margin-right: 20px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                max-width: 576px;
+            }
+            .header__phone {
+                font-size: 10px;
+            }
+            .header__official {
+                display: none;
+            }
+            .button {
+                width: 100px;
+                font-size: 8px;
+                &_main {
+                    width: 200px;
+                    font-size: 13px;
+                }
+                &_submit {
+                    width: 200px;
+                    font-size: 13px;
+                }
+            }
+            .reviews__wrapper {
+                padding: 0 30px;
+            }
+            .catalog__tab {
+                width: 150px;
+                font-size: 13px;
+            }
+            .footer__info {
+                width: 310px;
+                height: 130px;
+                padding: 10px 38px 10px 38px;
+            }
+            .footer__addr {
+                font-size: 10px;
+                margin-bottom: 15px;
+            }
+            .footer__phone {
+                font-size: 10px;
+                margin-bottom: 15px;
+            }
+            .footer__social-item {
+                width: 30px;
+                height: 30px;
+                img {
+                    height: 14px;
+                }
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .container {
+                max-width: 320px;
+            }
+            .reviews__inner {
+                flex-direction: column;
+            }
+        }

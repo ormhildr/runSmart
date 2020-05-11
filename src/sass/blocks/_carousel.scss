@@ -22,4 +22,21 @@
         right: -66px;
         left: auto;
     }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .slick-dots button {
+        background: #a0a0a0;
+        border: none;
+        border-radius: 50%;
+        font-size: 0;
+        height: 15px;
+        width: 15px;
+        margin: 5px;
+    }
+    .slick-dots li[class="slick-active"] button {
+        background: #666666;
+    }
 }
